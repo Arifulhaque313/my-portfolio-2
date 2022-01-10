@@ -1,1 +1,81 @@
-# my-portfolio-2
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+ font-family: 'Merriweather', serif;;
+}
+
+.two-section{
+    display: flex;
+    padding: 50px;
+    margin-bottom: 0px;
+}
+
+.half{
+    width: 50%;
+}
+
+.half img{
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+/*First section*/
+.f-sec-l {
+    padding-right:20px ;
+}
+
+.f-sec-l h1{
+    
+    font-size: 38px;
+    line-height: 1.6;
+}
+
+.f-sec-l p{
+    color: rgb(119, 112, 112);
+    font-weight: 300;
+    text-align: justify;
+    padding: 30px 0px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.f-sec-l .button{
+    padding: 10px 30px;
+    background: linear-gradient(90deg, #0162c8,#55e7fc);
+    border-radius: 40px;
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+    
+}
+
+.f-sec-r img{
+    margin-left: 50px;
+}
+
+/*Second section start*/
+
+.second-section{
+    padding: 40px;
+    display: flex;
+    background: url(images/bg.jpg);
+    background-size: cover;
+    
+    width: 100%;
+
+}
+
+.sec-sec-l{
+    padding-right:20px ;
+    
+}
+
+.sec-sec-l img{
+    width: 70%;
+}
