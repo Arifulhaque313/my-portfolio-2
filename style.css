@@ -114,3 +114,69 @@ body{
    
     text-align: center;
 }
+
+.third-sec-p{
+    width: 500px; 
+    margin: 20px auto; 
+    font-size: 14px; 
+    color: rgb(95, 89, 89);
+}
+
+
+@media only screen and (max-width: 980px){
+
+    .two-section{
+        display: block;
+    }
+    .f-sec-l h1{
+        font-size: 25px;;
+    }
+
+    .f-sec-l p{
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+    .f-sec-r{
+        margin-top: 30px;
+    }
+
+    .button{
+        font-size: 12px;
+    }
+    
+
+    .half{
+        width: 100%;
+    }
+
+
+    .second-section{
+        display: block;
+    }
+    .s-s-r{
+        margin-top: 20px;
+    }
+
+
+
+    .three-box{
+        display: block;
+    }
+
+    .third-sec-p{
+        width: auto;
+        padding: 10px 30px;
+        text-align: justify;
+    }
+
+    .box-3{
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .s-s-i{
+        text-align: center;
+    }
+
+}
